@@ -1,0 +1,178 @@
+com/zhen/foo/NoWrapMap.java:11: error: cannot find symbol
+public class NoWrapMap extends java.util.AbstractMap<NoWrapStringType, NoWrapStringType> {
+                                                     ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:11: error: cannot find symbol
+public class NoWrapMap extends java.util.AbstractMap<NoWrapStringType, NoWrapStringType> {
+                                                                       ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:52: error: cannot find symbol
+  public NoWrapStringType get(java.lang.Object key) {
+         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:65: error: cannot find symbol
+  public NoWrapStringType put(NoWrapStringType key, NoWrapStringType value) {
+                              ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:65: error: cannot find symbol
+  public NoWrapStringType put(NoWrapStringType key, NoWrapStringType value) {
+                                                    ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:65: error: cannot find symbol
+  public NoWrapStringType put(NoWrapStringType key, NoWrapStringType value) {
+         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:77: error: cannot find symbol
+  public NoWrapStringType remove(java.lang.Object key) {
+         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:92: error: cannot find symbol
+  public java.util.Set<Entry<NoWrapStringType, NoWrapStringType>> entrySet() {
+                             ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:92: error: cannot find symbol
+  public java.util.Set<Entry<NoWrapStringType, NoWrapStringType>> entrySet() {
+                                               ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+FooTest.java:16: error: cannot find symbol
+        OtherBar b2 = new OtherBar();
+        ^
+  symbol:   class OtherBar
+  location: class RuntimeTest
+FooTest.java:16: error: cannot find symbol
+        OtherBar b2 = new OtherBar();
+                          ^
+  symbol:   class OtherBar
+  location: class RuntimeTest
+FooTest.java:19: error: cannot find symbol
+        f.useBar(b1);
+         ^
+  symbol:   method useBar(Bar)
+  location: variable f of type Foo
+com/zhen/foo/NoWrapMap.java:45: error: cannot find symbol
+    if (!(key instanceof NoWrapStringType)) {
+                         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:49: error: cannot find symbol
+    return containsImpl((NoWrapStringType)key);
+                         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:53: error: cannot find symbol
+    if (!(key instanceof NoWrapStringType)) {
+                         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:57: error: cannot find symbol
+    Iterator itr = find((NoWrapStringType) key);
+                         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:66: error: cannot find symbol
+    Iterator itr = find((NoWrapStringType) key);
+                         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:68: error: cannot find symbol
+      NoWrapStringType oldValue = itr.getValue();
+      ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:78: error: cannot find symbol
+    if (!(key instanceof NoWrapStringType)) {
+                         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:82: error: cannot find symbol
+    Iterator itr = find((NoWrapStringType) key);
+                         ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:84: error: cannot find symbol
+      NoWrapStringType oldValue = itr.getValue();
+      ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:85: error: incompatible types: Iterator cannot be converted to SWIGTYPE_p_std__mapT_ScalarT_std__string_t_ScalarT_std__string_t_std__lessT_ScalarT_std__string_t_t_t__iterator
+      removeUnchecked(itr);
+                      ^
+com/zhen/foo/NoWrapMap.java:93: error: cannot find symbol
+    java.util.Set<Entry<NoWrapStringType, NoWrapStringType>> setToReturn =
+                        ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:93: error: cannot find symbol
+    java.util.Set<Entry<NoWrapStringType, NoWrapStringType>> setToReturn =
+                                          ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:94: error: cannot find symbol
+        new java.util.HashSet<Entry<NoWrapStringType, NoWrapStringType>>();
+                                    ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:94: error: cannot find symbol
+        new java.util.HashSet<Entry<NoWrapStringType, NoWrapStringType>>();
+                                                      ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:96: error: incompatible types: SWIGTYPE_p_std__mapT_ScalarT_std__string_t_ScalarT_std__string_t_std__lessT_ScalarT_std__string_t_t_t__iterator cannot be converted to Iterator
+    Iterator itr = begin();
+                        ^
+com/zhen/foo/NoWrapMap.java:97: error: incompatible types: SWIGTYPE_p_std__mapT_ScalarT_std__string_t_ScalarT_std__string_t_std__lessT_ScalarT_std__string_t_t_t__iterator cannot be converted to Iterator
+    final Iterator end = end();
+                            ^
+com/zhen/foo/NoWrapMap.java:98: error: incompatible types: Iterator cannot be converted to SWIGTYPE_p_std__mapT_ScalarT_std__string_t_ScalarT_std__string_t_std__lessT_ScalarT_std__string_t_t_t__iterator
+    while (itr.isNot(end)) {
+                     ^
+com/zhen/foo/NoWrapMap.java:99: error: cannot find symbol
+      setToReturn.add(new Entry<NoWrapStringType, NoWrapStringType>() {
+                                ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:99: error: cannot find symbol
+      setToReturn.add(new Entry<NoWrapStringType, NoWrapStringType>() {
+                                                  ^
+  symbol:   class NoWrapStringType
+  location: class NoWrapMap
+com/zhen/foo/NoWrapMap.java:102: error: cannot find symbol
+        private Entry<NoWrapStringType, NoWrapStringType> init(Iterator iterator) {
+                      ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:102: error: cannot find symbol
+        private Entry<NoWrapStringType, NoWrapStringType> init(Iterator iterator) {
+                                        ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:107: error: cannot find symbol
+        public NoWrapStringType getKey() {
+               ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:111: error: cannot find symbol
+        public NoWrapStringType getValue() {
+               ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:115: error: cannot find symbol
+        public NoWrapStringType setValue(NoWrapStringType newValue) {
+                                         ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:115: error: cannot find symbol
+        public NoWrapStringType setValue(NoWrapStringType newValue) {
+               ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:116: error: cannot find symbol
+          NoWrapStringType oldValue = iterator.getValue();
+          ^
+  symbol: class NoWrapStringType
+com/zhen/foo/NoWrapMap.java:121: error: incompatible types: SWIGTYPE_p_std__mapT_ScalarT_std__string_t_ScalarT_std__string_t_std__lessT_ScalarT_std__string_t_t_t__iterator cannot be converted to Iterator
+      itr = itr.getNextUnchecked();
+                                ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+39 errors
